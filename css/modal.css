@@ -1,0 +1,59 @@
+body {
+  font-family: sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+}
+
+.visible {
+  display: block;
+}
+
+.modal-card {
+  background: #ffffff;
+  padding: 5px;
+  border-radius: 10px;
+  margin-top: 2%;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.modal-card-head {
+  border-bottom: none;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  background: black;
+}
+
+.modal-card-title {
+  color: white;
+}
+
+.sticky {
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transition: 0.4s;
+  padding: 20px 50px;
+  background: white !important;
+}
+
+@media screen and (max-width: 769px) {
+  .sticky {
+    /*width: 90%;*/
+    display: block;
+    width: 100vw;
+    padding: 20px 0;
+  }
+}
