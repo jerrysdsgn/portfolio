@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+}
+
+.main-home-title {
+  font-size: 35px;
+}
+.panel {
+  padding: 20px;
+}
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+strong {
+  font-size: 1em;
+}
+ul li {
+  list-style-type: circle;
+}
